@@ -53,7 +53,7 @@ const App = () => {
             <PlanDetails selectedPlan={selectedPlan}  isMonthlyPlan={isMonthlyPlan}/>
             <ActionButton onClick={() => console.log('Button clicked')} />
           </div>
-          
+         
         </div>
       </div>
     </div>
