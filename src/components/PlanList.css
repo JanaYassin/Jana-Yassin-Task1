@@ -92,3 +92,59 @@ font-weight: bold;
   font-weight: bold;
   margin-left: 20px;
 }
+
+
+@media screen and (max-width: 480px) {
+  .switch-container {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .content-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .plan-list-container {
+    width: 95%; 
+    margin-bottom: 20px; 
+    margin-left: -10%;
+  }
+
+  .plan-item {
+    width: 100%; 
+  }
+
+  .plan-name {
+    font-size: 13px;
+    text-align: center; 
+    margin-bottom: 5px; 
+  }
+
+  .discount-badge {
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 5px;
+  }
+
+  .price {
+    width: 100%;
+    text-align: center; 
+  }
+
+  .plan-details-container {
+    margin-left: 0; 
+  }
+
+  .back-link {
+    position: static; 
+    margin-top: 10px; 
+    font-size: 16px; 
+  }
+
+  .action-button {
+    position: static; 
+    margin-top: 20px;
+  }
+
+}

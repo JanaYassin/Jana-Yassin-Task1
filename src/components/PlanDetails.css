@@ -120,3 +120,31 @@
 .plan-details-table td input[type="radio"]:checked + label::after {
   opacity: 1;
 }
+
+@media screen and (max-width: 480px) {
+  .plan-details-table {
+    width: 135%; 
+    font-size: 14px; 
+    margin-left: -25%;
+    margin-bottom: 20%;
+  }
+
+  .plan-details-table th {
+    font-size: 18px; 
+    
+  }
+
+  .plan-details-table td {
+    padding: 8px; 
+    height: 30px; 
+  }
+
+  .plan-details-table td:first-child {
+    padding-left: 20px; 
+  }
+
+
+  /* .plan-details-table-container:after {
+    bottom: 40px;
+  } */
+}
